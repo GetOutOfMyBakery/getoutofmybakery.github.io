@@ -197,7 +197,8 @@ jekyll_compose:
 
   default_front_matter:
     posts:
-      description:
+      description: >-
+
       image:
         path:
         alt: Alt text for the image
