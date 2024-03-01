@@ -4,8 +4,11 @@ on:
     branches:
       - main
     paths-ignore:
-      - .gitignore
+      - .editorconfig
       - .envrc
+      - .github/
+      - .gitignore
+      - .vscode/
       - bin/
       - LICENSE
       - README.md
