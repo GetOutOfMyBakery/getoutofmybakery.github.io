@@ -4,23 +4,13 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-Hey!
+Hey! I like to tinker with tech, figure out how things work (and how they break), and spend more time setting things up (and tearing them down) than I actually end up using them.
 
-{% if jekyll.environment == 'development' %}
-  👇 This is only shown in "development mode":
-  > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-  {: .prompt-tip}
+I'm a self-hosting homelabber, always eager to try out a new project.
 
-  Let's see some prompt's in action:
-  > prompt-tip
-  {: .prompt-tip}
+I spent 5+ years as a test engineer, then moved into a more technical role setting up and maintaining infrastructure.
+For the past two years I've been in a Developer Platform team, in essence a DevOps role.
 
-  > prompt-info
-  {: .prompt-info}
+I'm passionate about helping people and making a positive difference.
 
-  > prompt-warning
-  {: .prompt-warning}
-
-  > prompt-danger
-  {: .prompt-danger}
-{% endif %}
+Contrary to the avatar, I'm not a squid nor an octopus.
