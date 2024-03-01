@@ -1,0 +1,7 @@
+copyright:
+  # Hide the copyright message: "This post is licensed under [...]" at the bottom of posts
+  license:
+    template: ''
+
+not_found:
+  statment: Sorry, there's nothing at this URL.
