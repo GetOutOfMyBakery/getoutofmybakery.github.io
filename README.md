@@ -1,4 +1,4 @@
-# GetOutOfMyBakery GitHub Page (Jekyll)
+# GetOutOfMyBakery Jekyll Blog
 A scratchpad Jekyll blog for my personal GitHub account.
 
 ## Up and Running
@@ -7,10 +7,11 @@ A scratchpad Jekyll blog for my personal GitHub account.
 1. Navigate to: [127.0.0.1:4000](http://127.0.0.1:4000/) _or_ [localhost:4000](http://localhost:4000/)
 
 ## Deploying changes
-Simply merge to `main`.
+Simply merge to `main`, and the [pages-deploy workflow](.github/workflows/pages-deploy.yml) will handle the building and deploying to [GitHub Pages](https://pages.github.com/).  
+This is currently hosted [here](https://getoutofmybakery.github.io/).
 
 ## Creating and managing posts
-With the help of [`jekyll-compose`](https://github.com/jekyll/jekyll-compose), creating and managing posts is easy:
+With the help of [`jekyll-compose`](https://github.com/jekyll/jekyll-compose) creating and managing posts is easy:
 ``` shell
 bundle exec jekyll post "My new post"
 
