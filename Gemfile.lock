@@ -178,7 +178,7 @@ DEPENDENCIES
   jekyll (~> 4.3.3)
   jekyll-compose
   jekyll-feed (~> 0.12)
-  jekyll-theme-chirpy
+  jekyll-theme-chirpy (~> 6.5, >= 6.5.2)
 
 BUNDLED WITH
    2.5.6
