@@ -12,9 +12,9 @@ timezone: 'Europe/London'
 # Docs: https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 
 title: GoomB
-tagline: Jekyll Blog for GetOutOfMyBakery
+tagline: Blog for GetOutOfMyBakery
 description: >-
-  Jekyll blog page for GetOutOfMyBakery.
+  Blog for GetOutOfMyBakery.
 url: "https://getoutofmybakery.github.io"
 repo: "https://github.com/GetOutOfMyBakery/getoutofmybakery.github.io"
 baseurl: ""
