@@ -42,8 +42,8 @@ social:
 # google_analytics:
 #   id: # fill in your Google Analytics ID
 
-# goatcounter:
-#   id: # fill in your Goatcounter ID
+goatcounter:
+  id: mybakery
 # ----------------------------- /analytics -------------------------
 
 # Prefer color scheme setting.
