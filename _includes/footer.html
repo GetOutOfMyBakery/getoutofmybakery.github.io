@@ -8,11 +8,11 @@
   "
 >
   <p>
-    <!-- {{- '©' }}
+    {{- '©' }}
     <time>{{ 'now' | date: '%Y' }}</time>
 
     {% if site.social.links %}
-      <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>.
+      <a href="{{ site.social.links[0] }}" target="_blank" rel="noopener">{{ site.social.name }}</a>.
     {% else %}
       <em class="fst-normal">{{ site.social.name }}</em>.
     {% endif %}
@@ -25,7 +25,7 @@
       >
         {{- site.data.locales[include.lang].copyright.brief -}}
       </span>
-    {% endif %} -->
+    {% endif %}
   </p>
 
   <p>
@@ -37,6 +37,15 @@
       <a href="https://github.com/cotes2020/jekyll-theme-chirpy" target="_blank" rel="noopener">Chirpy</a>
     {%- endcapture -%}
 
-    {{ site.data.locales[include.lang].meta | replace: ':PLATFORM', _platform | replace: ':THEME', _theme }}
+    {%- capture _repo -%}
+      <a href="{{ site.repo }}" target="_blank" rel="noopener">GitHub</a>
+    {%- endcapture -%}
+
+    {{
+      site.data.locales[include.lang].meta |
+        replace: ':PLATFORM', _platform |
+        replace: ':THEME', _theme  |
+        replace: ':REPO', _repo
+    }}
   </p>
 </footer>

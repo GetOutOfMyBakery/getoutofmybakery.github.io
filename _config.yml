@@ -15,8 +15,8 @@ title: GoomB
 tagline: Jekyll Blog for GetOutOfMyBakery
 description: >-
   Jekyll blog page for GetOutOfMyBakery.
-  This likely will serve as a sandpit.
 url: "https://getoutofmybakery.github.io"
+repo: "https://github.com/GetOutOfMyBakery/getoutofmybakery.github.io"
 baseurl: ""
 
 github:
