@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+SITE_DIR="${REPO_ROOT}/_site"
+
+JEKYLL_ENV='production' bundle exec jekyll build --destination "${SITE_DIR}"

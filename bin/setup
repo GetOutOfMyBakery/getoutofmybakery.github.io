@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 
 bundle check || bundle install
-bundle exec jekyll serve --livereload
+lefthook install -f
+brew bundle

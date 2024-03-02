@@ -3,12 +3,9 @@ A scratchpad Jekyll blog for my personal GitHub account.
 
 ## Up and Running
 1. Checkout this repo: `gh repo clone GetOutOfMyBakery/getoutofmybakery.github.io`
+1. Run: `bin/setup`
 1. Run: `bin/dev`
 1. Navigate to: [127.0.0.1:4000](http://127.0.0.1:4000/) _or_ [localhost:4000](http://localhost:4000/)
-
-## Deploying changes
-Simply merge to `main`, and the [pages-deploy workflow](.github/workflows/pages-deploy.yml) will handle the building and deploying to [GitHub Pages](https://pages.github.com/).  
-This is currently hosted [here](https://getoutofmybakery.github.io/).
 
 ## Creating and managing posts
 With the help of [`jekyll-compose`](https://github.com/jekyll/jekyll-compose) creating and managing posts is easy:
@@ -26,3 +23,14 @@ You can also examine the latest version of the gem with:
 ```shell
 bundle open jekyll-theme-chirpy
 ```
+
+## Making a commit
+[Lefthook](https://github.com/evilmartians/lefthook/) has been configured with pre-commit checks to:
+- run `actionlint` for the `.github/workflows`
+- run `htmlproofer` on the generated site
+
+If for some reason it's necessary, it's possible to temporarily skip `lefthook` with: `LEFTHOOK=0 git commit`.
+
+## Deploying changes
+Simply merge to `main`, and the [pages-deploy workflow](.github/workflows/pages-deploy.yml) will handle the building and deploying to [GitHub Pages](https://pages.github.com/).  
+The site is currently hosted [here](https://getoutofmybakery.github.io/).

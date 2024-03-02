@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+SITE_DIR="${REPO_ROOT}/_site"
+
+[ ! -d "${SITE_DIR}" ] && bin/build # Safeguard to ensure there is a "./_site/"
+bundle exec htmlproofer "${SITE_DIR}" --disable-external --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
