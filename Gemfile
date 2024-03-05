@@ -1,20 +1,21 @@
-source 'https://rubygems.org'
-gem 'jekyll', '~> 4.3.3'
-gem 'jekyll-theme-chirpy', '~> 6.5', '>= 6.5.2'
+source "https://rubygems.org"
+gem "jekyll", "~> 4.3.3"
+gem "jekyll-theme-chirpy", "~> 6.5", ">= 6.5.2"
 
-gem 'csv'
-gem 'base64'
-gem 'bigdecimal'
+gem "base64"
+gem "bigdecimal"
+gem "csv"
 
 group :test do
-  gem 'html-proofer', '~> 5.0'
+  gem "html-proofer", "~> 5.0"
 end
 
 group :jekyll_plugins do
-  gem 'jekyll-feed', '~> 0.12'
-  gem 'jekyll-compose'
+  gem "jekyll-compose"
+  gem "jekyll-feed", "~> 0.12"
 end
 
 group :development do
-  gem 'lefthook'
+  gem "lefthook"
+  gem "standardrb"
 end

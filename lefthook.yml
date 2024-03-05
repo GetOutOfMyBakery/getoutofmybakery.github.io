@@ -11,3 +11,9 @@ pre-commit:
       actionlint:
         glob: ".github/workflows/*.{yml,yaml}"
         run: actionlint {staged_files}
+      shellcheck:
+        glob: "*.{sh,bash}"
+        run: shellcheck {staged_files}
+      ruby:
+        glob: "*.{erb,rb}"
+        run: bundle exec standardrb {staged_files}

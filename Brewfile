@@ -1,1 +1,1 @@
-brew 'actionlint'
+brew "actionlint"
