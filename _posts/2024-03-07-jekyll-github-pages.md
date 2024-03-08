@@ -34,10 +34,10 @@ Once the [initial setup][inaugural-post] was in place, I took some time to:
 - prioritize first time set up (i.e. up-and-running) and on-going development experience: 
   - [README.md][my-blog-readme]{:xn}
   - [`bin/setup` & `bin/dev`][my-bin-dir]{:xn} - simple entry points and quality of life configuration (auto-install, hot reloading, etc.)
-- configured [lefthook][lefthook]{:xn} (a Go-based Git hooks manager) to ensure consistency going forwards:
+- configure [lefthook][lefthook]{:xn} (a Go-based Git hooks manager) to ensure consistency going forwards:
   - [lefthook config][lefthook-config]{:xn}: static analysis tooling on a pre-commit hook
-- configured [dependabot][dependabot-config]{:xn} for dependency management
-- configured [editorconfig][editorconfig]{:xn}
+- configure [dependabot][dependabot-config]{:xn} for dependency management
+- configure [editorconfig][editorconfig]{:xn}
 - generally smoothed the development and deployment process (only relevant changes are deployed on merging back to the default branch, deployment takes around 20 seconds)
 - set up [goatcounter][goatcounter]{:xn} for simple web analytics without tracking
 
