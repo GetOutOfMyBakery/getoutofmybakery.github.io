@@ -41,7 +41,7 @@ Once the [initial setup][inaugural-post] was in place, I took some time to:
 - generally smoothed the development and deployment process (only relevant changes are deployed on merging back to the default branch, deployment takes around 20 seconds)
 - set up [goatcounter][goatcounter]{:xn} for simple web analytics without tracking
 
-All of this was pretty painless and only took a few hours over two evenings (and that includes my first two posts [1][inaugural-post]{:xn},[2][zentangle-organised-chaos]{:xn}) and while being slightly pre-occupied rewatching [_Poor Things_ (2023)][poor-things]{:xn}.
+All of this was pretty painless and only took a few hours over two evenings, that includes my first two posts [1][inaugural-post]{:xn},[2][zentangle-organised-chaos]{:xn}, as well the fact I was slightly pre-occupied rewatching [_Poor Things_ (2023)][poor-things]{:xn}. All in all an effortless setup.
 
 ***
 
