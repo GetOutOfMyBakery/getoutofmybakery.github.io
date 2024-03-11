@@ -1,1 +1,2 @@
 brew "actionlint"
+brew "shellcheck"
