@@ -33,13 +33,16 @@
     {%- endcapture -%}
 
     {%- capture _theme -%}
-      <span
+      <a
         data-bs-toggle="tooltip"
         data-bs-placement="top"
-        title="Version: {{ theme.version }}"
+        title="v{{ theme.version }}"
+        href="{{ site.theme_url }}"
+        target="_blank"
+        rel="noopener"
       >
-        <a href="{{ site.theme_url }}" target="_blank" rel="noopener">{{ site.theme_name }}</a>
-      </span>
+        {{ site.theme_name }}
+      </a>
     {%- endcapture -%}
 
     {{
