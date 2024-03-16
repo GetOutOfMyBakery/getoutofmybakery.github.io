@@ -1,4 +1,8 @@
+# ------------------------------ Theme Info ------------------------------
 theme: jekyll-theme-chirpy
+theme_name: Chirpy
+theme_url: https://github.com/cotes2020/jekyll-theme-chirpy
+# --------------------------- End of Theme Info --------------------------
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
@@ -107,7 +111,10 @@ assets:
 pwa:
   enabled: true # the option for PWA feature (installable)
   cache:
-    enabled: true # the option for PWA offline cache
+    # Keep this disabled to prevent local cache frustration!
+    # It creates a cached version of the site, and breaks hot-reloading when writing new posts
+    enabled: false # the option for PWA offline cache
+
     # Paths defined here will be excluded from the PWA cache.
     # Usually its value is the `baseurl` of another website that
     # shares the same domain name as the current website.
