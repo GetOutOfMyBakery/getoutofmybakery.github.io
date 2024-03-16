@@ -15,5 +15,5 @@ pre-commit:
         glob: "*.{sh,bash}"
         run: shellcheck {staged_files}
       ruby:
-        glob: "*.{erb,rb}"
+        glob: "*.rb"
         run: bundle exec standardrb {staged_files}
