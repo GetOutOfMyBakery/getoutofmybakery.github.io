@@ -5,12 +5,13 @@ A scratchpad Jekyll blog for my personal GitHub account.
 1. Checkout this repo: `gh repo clone GetOutOfMyBakery/getoutofmybakery.github.io`
 1. Run: `bin/setup`
 1. Run: `bin/dev`
-1. Navigate to: [127.0.0.1:4000](http://127.0.0.1:4000/) _or_ [localhost:4000](http://localhost:4000/)
+1. Locally hosted at: [127.0.0.1:4000](http://127.0.0.1:4000/) _or_ [localhost:4000](http://localhost:4000/)
 
 ## Creating and managing posts
 With the help of [`jekyll-compose`](https://github.com/jekyll/jekyll-compose) creating and managing posts is easy:
 ``` shell
 bundle exec jekyll post "My new post"
+bundle exec jekyll draft "My new draft"
 
 bundle exec jekyll help # Show the list of commands available to jekyll
 ```
@@ -28,6 +29,7 @@ bundle open jekyll-theme-chirpy
 [Lefthook](https://github.com/evilmartians/lefthook/) has been configured with pre-commit checks to:
 - run `actionlint` for the `.github/workflows`
 - run `htmlproofer` on the generated site
+- run `shellcheck` on any shell or bash scripts
 
 If for some reason it's necessary, it's possible to temporarily skip `lefthook` with: `LEFTHOOK=0 git commit`.
 
