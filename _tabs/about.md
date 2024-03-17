@@ -1,11 +1,12 @@
 ---
 # the default layout is 'page'
-title: About Me
+title: About
 icon: fas fa-info-circle
 order: 4
 ---
 {:xn: target="_blank" rel="nofollow noreferrer noopener"}
 
+## About Me
 Hey!
 
 I like to tinker with tech, figure out how things work and how they break. I often spend more time setting things up, and tearing them down, than I actually end up using them, because I'm fascinated by the process and building my understanding.
