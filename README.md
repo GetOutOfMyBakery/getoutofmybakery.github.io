@@ -5,8 +5,8 @@ A scratchpad Jekyll blog for my personal GitHub account.
 1. Checkout this repo: `gh repo clone GetOutOfMyBakery/getoutofmybakery.github.io`
 1. Run: `bin/setup`
 1. Run: `bin/dev`
-1. Update `.envrc` and update the variables
-1. Blog is now locally hosted at: [127.0.0.1:4000](http://127.0.0.1:4000/) _or_ [localhost:4000](http://localhost:4000/)
+1. Update the variables in `.envrc`
+1. The blog is now locally hosted at: [127.0.0.1:4000](http://127.0.0.1:4000/) _or_ [localhost:4000](http://localhost:4000/)
 
 > [!TIP]
 > Consider using a tool like [direnv](https://github.com/direnv/direnv) to automatically set the projects ENV vars.
