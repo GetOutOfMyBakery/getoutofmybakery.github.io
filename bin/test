@@ -4,4 +4,4 @@ REPO_ROOT="$(git rev-parse --show-toplevel)"
 SITE_DIR="${REPO_ROOT}/_site"
 
 bin/build # Always build so the site is up-to-date before testing
-bundle exec htmlproofer "${SITE_DIR}" --disable-external --ignore-urls "/^http:\/\/{127.0.0.1,0.0.0.0,localhost,mac.home}/"
+bundle exec htmlproofer "${SITE_DIR}" --disable-external --ignore-urls "/^http:\/\/{127.0.0.1,0.0.0.0,localhost,$IP_ADDR}/"
