@@ -93,7 +93,7 @@ comments:
   giscus:
     repo: GetOutOfMyBakery/getoutofmybakery.github.io
     repo_id: R_kgDOLZ70-A
-    category: giscus comments
+    category: Comments from giscus
     category_id: DIC_kwDOLZ70-M4CeBii
     mapping: pathname # optional, default to 'pathname'
     input_position: top # optional, default to 'bottom'
