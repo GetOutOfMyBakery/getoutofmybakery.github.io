@@ -12,9 +12,9 @@ A scratchpad Jekyll blog for my personal GitHub account.
 > Consider using a tool like [direnv](https://github.com/direnv/direnv) to automatically set the projects ENV vars.
 
 > [!IMPORTANT]
-> `bin/qr-code` displays a QR Code that can be used my a mobile device. The supplied IP address therefore needs to be something that can be routed:
-> local address: 192.168.#.#
-> hostname: my-laptop.home.arpa
+> `bin/qr-code` displays a QR Code that can be used my a mobile device. The supplied IP address therefore needs to be something that can be routed, e.g.:
+> - local address: `192.168.#.#`
+> - hostname: `my-laptop.home.arpa`
 
 ## Creating and managing posts
 With the help of [`jekyll-compose`](https://github.com/jekyll/jekyll-compose) creating and managing posts is easy:
