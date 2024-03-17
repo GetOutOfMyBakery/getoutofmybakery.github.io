@@ -1,9 +1,15 @@
 #!/usr/bin/env bash
 
 bundle check || bundle install
+
+set -e
+bin/qr-code
+
 bundle exec jekyll serve \
                           --drafts \
                           --unpublished \
                           --livereload \
                           --watch \
-                          --open
+                          --open \
+                          --host "$IP_ADDR" \
+                          --port "$PORT"

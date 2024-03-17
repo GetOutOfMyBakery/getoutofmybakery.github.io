@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+[ -z "$IP_ADDR" ] && echo "Provide your local IP address by setting env var: IP_ADDR" && exit 1
+[ -z "$PORT" ] && echo "Provide the PORT by setting env var: PORT" && exit 1
+
+LOCAL_URL="http://${IP_ADDR}:${PORT}"
+echo "View on mobile:"
+qrencode -m 2 -t utf8 <<< "${LOCAL_URL}"
+echo "${LOCAL_URL}"
