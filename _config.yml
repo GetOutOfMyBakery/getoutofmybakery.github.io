@@ -1,74 +1,27 @@
-# ------------------------------ Theme Info ------------------------------
+# ------------------- Theme Info -------------------
 theme: jekyll-theme-chirpy
 theme_name: Chirpy
 theme_url: https://github.com/cotes2020/jekyll-theme-chirpy
-# --------------------------- End of Theme Info --------------------------
+# ------------------ /Theme Info -------------------
 
-# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
-# If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
-# otherwise, the layout language will use the default value of 'en'.
+# -------------------- Plugins --------------------
+plugins:
+  - jekyll-target-blank
+# ------------------- /Plugins --------------------
+
+# ------------- Plugin Configuration --------------
+target-blank:
+  rel: nofollow
+  add_css_classes: external-link
+# ------------ /Plugin Configuration --------------
+
+# ---------------- Global Settings ----------------
 lang: en
+timezone: 'Europe/London' # https://kevinnovak.github.io/Time-Zone-Picker
+theme_mode: dark # [light | dark] - Leave blank for auto
 
-# Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone: 'Europe/London'
-
-# --------------------------- `jekyll-seo-tag` settings --------------------------
-# Docs: https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
-
-title: GoomB
-tagline: Blog for GetOutOfMyBakery
-description: >-
-  Blog for GetOutOfMyBakery.
-url: "https://getoutofmybakery.github.io"
-repo: "https://github.com/GetOutOfMyBakery/getoutofmybakery.github.io"
-baseurl: ""
-
-github:
-  username: GetOutOfMyBakery
-social:
-  # Change to your full name.
-  # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: GetOutOfMyBakery
-  # email: example@domain.com # change to your email address
-  links:
-    # The first element serves as the copyright owner's link
-    # - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/GetOutOfMyBakery # change to your github homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
-
-# google_site_verification: # fill in to your verification string
-# --------------------------- /`jekyll-seo-tag` settings -------------------------
-
-
-# ----------------------------- analytics --------------------------
-# google_analytics:
-#   id: # fill in your Google Analytics ID
-
-goatcounter:
-  id: mybakery
-# ----------------------------- /analytics -------------------------
-
-# Prefer color scheme setting.
-#
-# Note: Keep empty will follow the system prefer color by default,
-# and there will be a toggle to switch the theme between dark and light
-# on the bottom left of the sidebar.
-#
-# Available options:
-#
-#     light  - Use the light color scheme
-#     dark   - Use the dark color scheme
-#
-theme_mode: # [light | dark]
-
-# The CDN endpoint for images.
-# Notice that once it is assigned, the CDN url
-# will be added to all image (site avatar & posts' images) paths starting with '/'
-#
-# e.g. 'https://cdn.com'
-img_cdn: ''
+# The CDN endpoint for images. Once it is assigned, the CDN URL will be added to all image (site avatar & posts' images) paths starting with '/'
+img_cdn: '' # 'https://cdn.com'
 
 # the avatar on sidebar, support local or CORS resources
 avatar: "./assets/img/gravatar.png"
@@ -77,7 +30,8 @@ avatar: "./assets/img/gravatar.png"
 # It can be overridden by a customized `page.image` in front matter.
 social_preview_image: # string, local or CORS resources
 
-# boolean type, the global switch for TOC in posts.
+# boolean type, the global switch for Table of Contents in posts.
+# This can be set on a per-page basis in the front matter
 toc: true
 
 comments:
@@ -112,7 +66,7 @@ pwa:
   enabled: true # the option for PWA feature (installable)
   cache:
     # Keep this disabled to prevent local cache frustration!
-    # It creates a cached version of the site, and breaks hot-reloading when writing new posts
+    # It creates a cached version of the site and breaks hot-reloading when writing new posts locally
     enabled: false # the option for PWA offline cache
 
     # Paths defined here will be excluded from the PWA cache.
@@ -123,8 +77,44 @@ pwa:
 
 paginate: 10
 
+# --------------- /Global Settings ----------------
 
-# ------------ The following options are not recommended to be modified ------------------
+# ----------- `jekyll-seo-tag` settings -----------
+# Docs: https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+title: GetOutOfMyBakery
+tagline: Just another voice on the internet.<br>Unqualified musings on life and tech.
+description: >-
+  Blog for GetOutOfMyBakery. Just another voice on the internet. Unqualified musings on life and tech.
+url: "https://getoutofmybakery.github.io"
+repo: "https://github.com/GetOutOfMyBakery/getoutofmybakery.github.io"
+baseurl: ""
+
+github:
+  username: GetOutOfMyBakery
+social:
+  # It will be displayed as the default author of the posts and the copyright owner in the Footer
+  name: GetOutOfMyBakery
+  # email: example@domain.com # change to your email address
+  links:
+    # The first element serves as the copyright owner's link
+    - https://github.com/GetOutOfMyBakery # change to your github homepage
+    # - https://twitter.com/username # change to your twitter homepage
+    # Uncomment below to add more social links
+    # - https://www.facebook.com/username
+    # - https://www.linkedin.com/in/username
+
+# google_site_verification: # fill in to your verification string
+# ---------- /`jekyll-seo-tag` settings -----------
+
+# ------------------- analytics -------------------
+# google_analytics:
+#   id: # fill in your Google Analytics ID
+goatcounter:
+  id: mybakery
+# ------------------ /analytics -------------------
+
+# ------ 'jekyll-theme-chirpy' configuration ------
+# The following options are not recommended to be modified
 kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
@@ -197,8 +187,9 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
-# ------------------------- /'jekyll-theme-chirpy' configuration -------------------------
+# ------ /'jekyll-theme-chirpy' configuration ------
 
+# -------------- Jekyll configuration --------------
 jekyll_compose:
   auto_open: true # Automatically open in JEKYLL_EDITOR
 
@@ -213,3 +204,4 @@ jekyll_compose:
       tags: [ 'post-tag' ]                          # TAG names should always be lowercase
       published: true
       pin: false
+# ------------- /Jekyll configuration --------------
