@@ -198,7 +198,7 @@ jekyll_compose:
       description: >-
 
       image:
-        path:
+        path: ''
         alt: Alt text for the image
       categories: [ top_category, sub_category ]    # [ TOP_CATEGORY, SUB_CATEGORY ]
       tags: [ 'post-tag' ]                          # TAG names should always be lowercase
