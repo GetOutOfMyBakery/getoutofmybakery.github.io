@@ -10,16 +10,10 @@
 }
 
 main .content .external-link::after {
-  // @extend %no-cursor;
-  // content: "\f08e"; // Font-Awesome external link icon
-  content: '';
-  display: inline-block;
-  width: 0.9em;
-  height: 0.9em;
-  margin-bottom: 0.2em;
-  margin-left: 0.1em;
-  color: var(--text-color);
-  background-image: url('/assets/img/external-link.svg');
-  background-repeat: no-repeat;
-  background-position: center;
+  font: var(--fa-font-solid);
+  font-size: 0.8rem;
+  margin-left: 0.3rem;
+  vertical-align: super;
+  content: "\f08e";
+  color: var(--link-color);
 }

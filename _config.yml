@@ -18,7 +18,7 @@ target-blank:
 # ---------------- Global Settings ----------------
 lang: en
 timezone: 'Europe/London' # https://kevinnovak.github.io/Time-Zone-Picker
-theme_mode: dark # [light | dark] - Leave blank for auto
+theme_mode: # [light | dark] - Leave blank for auto
 
 # The CDN endpoint for images. Once it is assigned, the CDN URL will be added to all image (site avatar & posts' images) paths starting with '/'
 img_cdn: '' # 'https://cdn.com'
