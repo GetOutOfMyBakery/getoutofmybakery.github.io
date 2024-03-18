@@ -14,6 +14,7 @@ end
 group :jekyll_plugins do
   gem "jekyll-compose"
   gem "jekyll-feed", "~> 0.12"
+  gem 'jekyll-target-blank', "~> 2.0"
 end
 
 group :development do

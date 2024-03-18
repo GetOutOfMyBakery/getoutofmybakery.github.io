@@ -6,8 +6,8 @@ description: 'A brief overview of my initial experience setting up Jekyll with G
 image:
   path: https://jekyllrb.com/img/octojekyll.png
   alt: GitHub's Mascot, Octocat, holding the Jekyll logo (a vial with red liquid) in one of it's tentacles. The image is from the Jekyllrb.com landing page.
-# categories:
-# - 
+categories:
+- tech
 tags:
 - tech
 - development
@@ -17,31 +17,30 @@ tags:
 published: true
 pin: false
 ---
-{:xn: target="_blank" rel="nofollow noreferrer noopener"}
 
 ## Setting up my first Jekyll blog and deploying to GitHub Pages
-My first impression of [Jekyll][jekyll-docs]{:xn} is extremely positive.
+My first impression of [Jekyll][jekyll-docs] is extremely positive.
 
 The _TL;DR_ version is that it's a Ruby-based static site generator, ideally suited for blogs, and optimized for GitHub Pages deployment, meaning you can have a blog online in just a few minutes that deploys in around 20 seconds.
 
 Overall:
 - it's super straightforward to [set up][jekyll-docs]
-- the experience of [trying out an existing theme][jekyll-docs-themes]{:xn} and tweaking it for my own preferences was simple, intuitive, and demonstrates just how flexible an option Jekyll is
-- configuring [GitHub Pages][github-pages] for deployment was again [well documented][chirpy-deploy-docs] and easy to [customize for my own needs and preferred workflow][my-deploy-pages-workflow]{:xn}
+- the experience of [trying out an existing theme][jekyll-docs-themes] and tweaking it for my own preferences was simple, intuitive, and demonstrates just how flexible an option Jekyll is
+- configuring [GitHub Pages][github-pages] for deployment was again [well documented][chirpy-deploy-docs] and easy to [customize for my own needs and preferred workflow][my-deploy-pages-workflow]
 
 ## Digging into some of the specifics
 Once the [initial setup][inaugural-post] was in place, I took some time to:
 - prioritize first time set up (i.e. up-and-running) and on-going development experience: 
-  - [README.md][my-blog-readme]{:xn}
-  - [`bin/setup` & `bin/dev`][my-bin-dir]{:xn} - simple entry points and quality of life configuration (auto-install, hot reloading, etc.)
-- configure [lefthook][lefthook]{:xn} (a Go-based Git hooks manager) to ensure consistency going forwards:
-  - [lefthook config][lefthook-config]{:xn}: static analysis tooling on a pre-commit hook
-- configure [dependabot][dependabot-config]{:xn} for dependency management
-- configure [editorconfig][editorconfig]{:xn}
+  - [README.md][my-blog-readme]
+  - [`bin/setup` & `bin/dev`][my-bin-dir] - simple entry points and quality of life configuration (auto-install, hot reloading, etc.)
+- configure [lefthook][lefthook] (a Go-based Git hooks manager) to ensure consistency going forwards:
+  - [lefthook config][lefthook-config]: static analysis tooling on a pre-commit hook
+- configure [dependabot][dependabot-config] for dependency management
+- configure [editorconfig][editorconfig]
 - generally smoothed the development and deployment process (only relevant changes are deployed on merging back to the default branch, deployment takes around 20 seconds)
-- set up [goatcounter][goatcounter]{:xn} for simple web analytics without tracking
+- set up [goatcounter][goatcounter] for simple web analytics without tracking
 
-All of this was pretty painless and only took a few hours over two evenings, that includes my first two posts [1][inaugural-post]{:xn}, [2][zentangle-organised-chaos]{:xn}, as well the fact I was slightly pre-occupied rewatching [_Poor Things_ (2023)][poor-things]{:xn}. All in all an effortless setup.
+All of this was pretty painless and only took a few hours over two evenings, that includes my first two posts [1][inaugural-post], [2][zentangle-organised-chaos], as well the fact I was slightly pre-occupied rewatching [_Poor Things_ (2023)][poor-things]. All in all an effortless setup.
 
 ***
 
