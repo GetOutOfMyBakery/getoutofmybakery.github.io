@@ -12,7 +12,10 @@ I like to tinker with tech, figure out how things work and how they break. I oft
 
 I'm passionate about helping people, making a positive difference, and consistently learning and growing.
 
+I've been using Linux in some form or another since around 2012.
 I'm a self-hoster/homelabber, always eager to discover and try out a new project/services.
+
+I studied English + Film & Media at University (2008-2012), then a few years later made the unexpected transition into tech.
 
 I spent 5+ years as a test engineer, then moved into a more technical role setting up and maintaining infrastructure.
 For the past few years I've been in a Developer Platform team, in essence a DevOps role.
