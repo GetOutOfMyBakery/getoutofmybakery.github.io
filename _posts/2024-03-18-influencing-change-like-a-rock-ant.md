@@ -19,7 +19,7 @@ published: true
 pin: false
 ---
 
-# The gambit
+## The gambit
 I'm a sucker for a story.
 
 Life has a way of being really complicated. Really messy.  
@@ -31,7 +31,7 @@ They pare down the complexity, the incongruous aspects, and provide a neat simpl
 
 So let me tell you a story.
 
-# Setting the scene
+## Setting the scene
 I work at a tech company. It's both boring and absolutely fascinating.
 
 "Boring" in that it's something we actively embrace: [Choose boring technology][choose-boring-technology]  
@@ -59,7 +59,7 @@ Shared desire to make improvements and make things better for everyone.
 But just for a minute, I want to pause and talk about ants.  
 [Rock ants][rock-ants] in particular.
 
-# The interlude
+## The interlude
 Over the weekend I found myself engrossed by more ant documentaries than anyone should spend their weekends watching. I'll cop to two, but honestly ... there was a third I partly watched. Anyway, during this fascinating ant-fest, there was a section that really stuck out and I couldn't stop thinking about.
 
 Rock ants have pretty simple heuristics and strategies they employ when migrating nests:
@@ -81,7 +81,7 @@ There's no hierarchy, no leader making the dictate or the decisions, just some s
 
 In a really short space of time the migration is complete, and the colony has fully adopted the new nest.
 
-# Bringing it back to the point
+## Bringing it back to the point
 So why did this affect me so much?  
 So much that I've already spoken to different people about it?  
 So much that I've decided to sit for an evening and write a post about it?  
@@ -107,7 +107,7 @@ It recognises that good and compelling ideas can be adopted without being enforc
 It directly flies in the face of the self-aggrandizing myth of the "Self-Made Man".[^self-made-man]  
 It recognises that success isn't down to one single person, but the result of the collective.
 
-# The outro
+## The outro
 If you've ever spent time with me in person, at some stage I've likely started my spiel:  
 "Everything is a massive interconnected system, [no man's an island][no-man-is-an-island], you see these patterns in nature, look at mushrooms and mycelium, [systems thinking][systems-thinking], watch [Mindwalk (1990)][mindwalk], etc."
 
