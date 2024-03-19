@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
+set -e
 
 bundle check || bundle install
 
-set -e
 bin/qr-code
 
 bundle exec jekyll serve \
