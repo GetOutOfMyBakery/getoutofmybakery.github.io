@@ -47,7 +47,7 @@ But absolutely fascinating at the same time.
 Recently, I've been talking to a lot of different people, across different departments.  
 People I've never worked with before.  
 People I've never met before.  
-People I've maybe only ever seen an avatar of, on Slack, but I wouldn't recognize "in the real world".
+People I've maybe only ever seen an avatar of, on Slack, but I wouldn't recognise "in the real world".
 
 And the conversations have been really interesting. Really engaging. Really easygoing, actually.  
 What's been the most interesting is the commonality, the shared experience, regardless of where we work within the organisation. Shared themes across the board.
@@ -70,10 +70,10 @@ _BBC – Planet Ant: Life Inside the Colony (2013)_
 
 The short _TL;DW_ version is: [`swarm intelligence`][swarm-intelligence], but there's so much more going on.
 
-When an existing nest is compromised, individuals ants venture out, exploring for a new potential nest.  
+When an existing nest is compromised, individual ants venture out, exploring for a new potential nest.  
 There's no hierarchy, no leader making the dictate or the decisions, just some simple rules and behaviours that any ant can follow:
 - they map out a new nest to see if it's a viable option
-- they then recruit another ant via a strategy of "Tandem Running": 'Hey, come check out what I just found!"
+- they then recruit another ant via a strategy of ["tandem running"][tandem-running]: "Hey, come check out what I just found!"
 - each recruited ant in turn becomes a recruiter, a force multiplier, and goes to recruit another ant of their own
 - 1 ant becomes 2 ants, becomes 4, becomes 8 (exponential adoption)
 - as soon as a critical number is reached -- and "this can be as few as 10" -- they proceed to the next phase
@@ -86,35 +86,35 @@ So why did this affect me so much?
 So much that I've already spoken to different people about it?  
 So much that I've decided to sit for an evening and write a post about it?  
 
-It's a simple map of adoption, a strategy for migration, a blueprint to affect change that can be applied to any ecosystem.
+It's a simple map of adoption, a strategy for migration, a blueprint to effect change that can be applied to any ecosystem.
 
-The questions we've been wrestling with lately, during these chats with people across the organisation, is:  
+The question we've been wrestling with lately, during these chats with people across the organisation, is:  
 "How do you influence culture in a large, complicated, interconnected organisation?"  
-Since we all recognise that there is change we'd like to affect, "how can we go about actually doing it?"  
+Since we all recognise that there is change we'd like to effect, how can we go about actually doing it?
 
-**The same way Rock ants migrate their nests.**
+**The same way rock ants migrate their nests.**
 
 Start by seeing if you can convince one person that your idea is worth exploring.  
 Discuss it, get some buy-in at the personal level, one on one.  
 If it's compelling, that person will pick it up and do the same, they'll recruit another.  
-Bit-by-bit adoption starts, as you continue to build up confidence that this new idea or insight is worthwhile.  
+Bit by bit adoption starts, as you continue to build up confidence that this new idea or insight is worthwhile.  
 Sooner or later the shift takes hold and it's encouraged from within (as opposed to a top-down decision).  
 People understand [the "why"][starting-with-why], rather than the "what", and it's much more compelling at the level of the individual.[^Nietzsche]
 
 What I really appreciate about this view is that it recognises that anyone can be the instigator of change.  
 It's rooted in collectivism and the wisdom of "the tribe".  
 It recognises that good and compelling ideas can be adopted without being enforced.  
-It directly flies in the face of the self-aggrandizing myth of the "Self-Made Man".[^self-made-man]  
-It recognises that success isn't down to one single person, but the result of the collective.
+It directly flies in the face of the self-aggrandising myth of the "Self-Made Man".[^self-made-man]  
+It recognises that success isn't down to one single person, but is the result of the collective.
 
 ## The outro
 If you've ever spent time with me in person, at some stage I've likely started my spiel:  
 "Everything is a massive interconnected system, [no man's an island][no-man-is-an-island], you see these patterns in nature, look at mushrooms and mycelium, [systems thinking][systems-thinking], watch [Mindwalk (1990)][mindwalk], etc."
 
 I think once you start noticing these patterns, it's impossible to "put the genie back in the bottle".  
-Life is still complicated, it's still messy, it still doesn't "make sense", but there is structure. There are understandable patterns, if you can get past the noise. For all of our complexity there are patterns of simple behaviour akin to that of the Rock ants and countless other examples in nature.
+Life is still complicated, it's still messy, it still doesn't "make sense", but there is structure. There are understandable patterns, if you can get past the noise. For all of our complexity there are patterns of simple behaviour akin to those of the rock ants and countless other examples in nature.
 
-If you want to make large scale change, think small, Ant small.
+If you want to make large-scale change, think small, ant small.
 
 I'll leave you with the full copy of John Donne's very well known poem on interconnectedness, circa 1624:
 
@@ -139,15 +139,16 @@ I'll leave you with the full copy of John Donne's very well known poem on interc
 [choose-boring-technology]: https://boringtechnology.club/
 [rock-ants]: https://en.wikipedia.org/wiki/Temnothorax_albipennis
 [swarm-intelligence]: https://en.wikipedia.org/wiki/Swarm_intelligence
+[tandem-running]: https://www.antwiki.org/wiki/Tandem_Running
 [starting-with-why]: https://simonsinek.com/books/start-with-why/
 [systems-thinking]: https://en.wikipedia.org/wiki/Systems_thinking
 [mindwalk]: https://www.imdb.com/title/tt0100151
-
+[twilight-of-the-idols]: https://www.faculty.umb.edu/gary_zabel/Phil_100/Nietzsche_files/Friedrich-Nietzsche-Twilight-of-the-Idols-or-How-to-Philosophize-With-the-Hammer-Translated-by-Richard-Polt.pdf
 ***
 
 ##### Footnotes
 [^bookkeeping-caveat]: I'm not for a second knocking double-entry bookkeeping, it's just far too complicated for me.
-[^modern]: Calling the company "progressive" would be putting it lightly. In terms of tech, we want for very little. All of the buzzwords the big players boast: CICD, AWS, Cloud infra, Terraform, Mac's for everyone ... you get the picture.
-[^productive]: We ship changes on average 100+ times per week for our main application. Every change is built, subjected to static analysis tooling, 65k+ automated tests, a variety of other automated procedures, all the while only taking around 10 minutes (13 minutes when factoring in deployment to production).
-[^Nietzsche]: Nietzsche spoke of this in terms of: "He who has a 'Why' to live can bear almost any 'How'."
-[^self-made-man]: This is a bugbear of mine that's so prevalent these days that I'll likely write about another day.
+[^modern]: Calling the company "progressive" would be putting it lightly. In terms of tech, we want for very little. All of the buzzwords the big players boast: CI/CD, AWS, cloud infra, Terraform, an in-house design system, machine learning, Macs for everyone ... you get the picture.
+[^productive]: We ship changes on average 100+ times per week for our main application. Every change is built, subjected to static analysis, 65k+ automated tests, and a variety of other automated procedures, all the while only taking around 10 minutes (13 minutes when factoring in deployment to production).
+[^Nietzsche]: Nietzsche spoke of this in terms of: ["If you have your 'why' for life, you can get by with almost any 'how'."][twilight-of-the-idols]
+[^self-made-man]: This is a bugbear of mine that's so prevalent these days that I'll likely write about it another day.
