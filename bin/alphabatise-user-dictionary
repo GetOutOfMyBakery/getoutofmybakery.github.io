@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+dictionary_file="$(git rev-parse --show-toplevel)/.vscode/spellright.dict"
+sort -f "${dictionary_file}" > "${dictionary_file}.tmp"
+mv "${dictionary_file}.tmp" "${dictionary_file}"
+git add -f "${dictionary_file}"

@@ -17,3 +17,6 @@ pre-commit:
       ruby:
         glob: "*.rb"
         run: bundle exec standardrb {staged_files}
+      alphabatise-dictionary:
+        file: .vscode/spellright.dict
+        run: bin/alphabatise-user-dictionary
