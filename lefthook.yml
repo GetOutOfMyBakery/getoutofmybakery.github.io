@@ -6,18 +6,22 @@
 pre-commit:
   parallel: true
   commands:
-      test:
-        run: bin/test # test the generated site
-      actionlint:
-        glob: ".github/workflows/*.{yml,yaml}"
-        run: actionlint {staged_files}
-      shellcheck:
-        glob: "*.{sh,bash}"
-        run: shellcheck {staged_files}
-      ruby:
-        glob: "*.rb"
-        run: bundle exec standardrb {staged_files}
-      alphabatise-dictionary:
-        files: git diff --name-only origin/main
-        glob: .vscode/spellright.dict
-        run: bin/alphabatise-user-dictionary
+    actionlint:
+      glob: ".github/workflows/*.{yml,yaml}"
+      run: actionlint {staged_files}
+    shellcheck:
+      glob: "*.{sh,bash}"
+      run: shellcheck {staged_files}
+    ruby:
+      glob: "*.rb"
+      run: bundle exec standardrb {staged_files}
+    alphabatise-dictionary:
+      files: git diff --name-only origin/main
+      glob: .vscode/spellright.dict
+      run: bin/alphabatise-user-dictionary
+
+pre-push:
+  parallel: true
+  commands:
+    test:
+      run: bin/test # test the generated site
