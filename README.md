@@ -34,8 +34,8 @@ You can also examine the latest version of the gem with:
 bundle open jekyll-theme-chirpy
 ```
 > [!IMPORTANT]
-> Since I'm maintaining the 'Skip to main content', use `bin/diff-upstream-gem` to check for any relevant upstream changes that I need to merge in.
-> For ease, remember that you can pass in 'chars' or 'words' to see just the different characters or words respectively.
+> In order to maintain the `Skip to main content` button, and some other minor tweaks, use `bin/diff-upstream-gem` to check for any relevant upstream changes that need to be merged in/resolved when updating versions.
+> For ease of use remember that `bin/diff-upstream-gem` can pass in `chars` or `words` to the script to see just the different characters or words respectively.
 
 ## Making a commit
 [Lefthook](https://github.com/evilmartians/lefthook/) has been configured with pre-commit checks to:
@@ -48,4 +48,3 @@ If for some reason it's necessary, it's possible to temporarily skip `lefthook` 
 ## Deploying changes
 Simply merge to `main` and the [pages-deploy workflow](.github/workflows/pages-deploy.yml) will handle the building and deploying to [GitHub Pages](https://pages.github.com/).  
 The site is currently hosted [here](https://getoutofmybakery.github.io/).
-
