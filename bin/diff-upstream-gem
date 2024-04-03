@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+set -e
+
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+DIRECTORIES_TO_COMPARE=("_layouts" "_includes")
+INSTALLED_GEM_PATH="$(bundle info jekyll-theme-chirpy | rg "Path" | awk '{print $2}')"
+diff_type="$1"
+
+for local_directory in "${DIRECTORIES_TO_COMPARE[@]}"; do
+  case $diff_type in
+    char|chars)
+      git diff --color-words=. --diff-filter=M "${INSTALLED_GEM_PATH}/${local_directory}" "${REPO_ROOT}/${local_directory}";;
+    word|words)
+      git diff --color-words --diff-filter=M "${INSTALLED_GEM_PATH}/${local_directory}" "${REPO_ROOT}/${local_directory}";;
+    *)
+      git diff --diff-filter=M "${INSTALLED_GEM_PATH}/${local_directory}" "${REPO_ROOT}/${local_directory}";;
+  esac
+done

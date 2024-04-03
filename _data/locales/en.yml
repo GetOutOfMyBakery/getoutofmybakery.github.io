@@ -54,8 +54,7 @@ notification:
   update_found: A new version of content is available.
   update: Update
 
-jump_to_main_content: Jump to main content
-# jump_to_main_content: Skip to main content
+skip_to_main_content: Skip to main content
 
 # ----- Posts related labels -----
 

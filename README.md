@@ -33,6 +33,9 @@ You can also examine the latest version of the gem with:
 ```shell
 bundle open jekyll-theme-chirpy
 ```
+> [!IMPORTANT]
+> Since I'm maintaining the 'Skip to main content', use `bin/diff-upstream-gem` to check for any relevant upstream changes that I need to merge in.
+> For ease, remember that you can pass in 'chars' or 'words' to see just the different characters or words respectively.
 
 ## Making a commit
 [Lefthook](https://github.com/evilmartians/lefthook/) has been configured with pre-commit checks to:
