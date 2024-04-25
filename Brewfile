@@ -1,3 +1,4 @@
-brew "actionlint"
-brew "shellcheck"
-brew "qrencode"
+brew 'actionlint'
+brew 'lefthook'
+brew 'shellcheck'
+brew 'qrencode'

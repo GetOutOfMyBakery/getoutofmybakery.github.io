@@ -17,6 +17,5 @@ group :jekyll_plugins do
 end
 
 group :development do
-  gem "lefthook"
   gem "standardrb"
 end
