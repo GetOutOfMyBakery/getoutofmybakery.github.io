@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 REPO_ROOT="$(git rev-parse --show-toplevel)"
-DIRECTORIES_TO_COMPARE=("_layouts" "_includes")
+DIRECTORIES_TO_COMPARE=("_layouts" "_includes" "assets/css")
 INSTALLED_GEM_PATH="$(bundle info jekyll-theme-chirpy | rg "Path" | awk '{print $2}')"
 diff_type="$1"
 

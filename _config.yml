@@ -20,8 +20,12 @@ lang: en
 timezone: 'Europe/London' # https://kevinnovak.github.io/Time-Zone-Picker
 theme_mode: # [light | dark] - Leave blank for auto
 
-# The CDN endpoint for images. Once it is assigned, the CDN URL will be added to all image (site avatar & posts' images) paths starting with '/'
-img_cdn: '' # 'https://cdn.com'
+# The CDN endpoint for media resources.
+# Notice that once it is assigned, the CDN url
+# will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
+#
+# e.g. 'https://cdn.com'
+# cdn:
 
 # the avatar on sidebar, support local or CORS resources
 avatar: "./assets/img/gravatar.png"
@@ -35,8 +39,8 @@ social_preview_image: # string, local or CORS resources
 toc: true
 
 comments:
-  active: giscus # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
-  # The active options are as follows:
+  provider: giscus # [disqus | utterances | giscus] # Global switch for the post comment system. Keeping it empty means disabled.
+  # The provider options are as follows:
   disqus:
     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
@@ -50,6 +54,7 @@ comments:
     category: Comments from giscus
     category_id: DIC_kwDOLZ70-M4CeBii
     mapping: pathname # optional, default to 'pathname'
+    strict: # optional, default to '0'
     input_position: top # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
     reactions_enabled: 1 # optional, default to the value of `1`
@@ -103,19 +108,40 @@ social:
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-# google_site_verification: # fill in to your verification string
+# Site Verification Settings
+# webmaster_verifications:
+#   google: # fill in your Google verification code
+#   bing: # fill in your Bing verification code
+#   alexa: # fill in your Alexa verification code
+#   yandex: # fill in your Yandex verification code
+#   baidu: # fill in your Baidu verification code
+#   facebook: # fill in your Facebook verification code
 # ---------- /`jekyll-seo-tag` settings -----------
 
 # ------------------- analytics -------------------
-# google_analytics:
-#   id: # fill in your Google Analytics ID
-goatcounter:
-  id: mybakery
+analytics:
+  goatcounter:
+    id: mybakery
+  # google:
+  #   id: # fill in your Google Analytics ID
+  # umami:
+  #   id: # fill in your Umami ID
+  #   domain: # fill in your Umami domain
+  # matomo:
+  #   id: # fill in your Matomo ID
+  #   domain: # fill in your Matomo domain
+  # cloudflare:
+  #   id: # fill in your Cloudflare Web Analytics token
+
+# Pageviews settings
+# pageviews:
+#   provider: goatcounter # now only supports 'goatcounter'
 # ------------------ /analytics -------------------
 
 # ------ 'jekyll-theme-chirpy' configuration ------
 # The following options are not recommended to be modified
 kramdown:
+  footnote_backlink: "&#8617;&#xfe0e;"
   syntax_highlighter: rouge
   syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
     css_class: highlight
@@ -176,7 +202,7 @@ exclude:
   - tools
   - README.md
   - LICENSE
-  - rollup.config.js
+  - "*.config.js"
   - package*.json
 
 jekyll-archives:
