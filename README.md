@@ -37,6 +37,8 @@ bundle open jekyll-theme-chirpy
 > In order to maintain the `Skip to main content` button, and some other minor tweaks, use `bin/diff-upstream-gem` to check for any relevant upstream changes that need to be merged in/resolved when updating versions.
 > For ease of use remember that `bin/diff-upstream-gem` can pass in `chars` or `words` to the script to see just the different characters or words respectively.
 
+Check how production will look before deploying with: `JEKYLL_ENV=production bin/dev`.
+
 ## Making a commit
 [Lefthook](https://github.com/evilmartians/lefthook/) has been configured with pre-commit checks to:
 - run `actionlint` for the `.github/workflows`
