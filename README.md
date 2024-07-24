@@ -8,9 +8,6 @@ A scratchpad Jekyll blog for my personal GitHub account.
 1. Run: `bin/dev`
 1. The blog is now locally hosted at: [127.0.0.1:4000](http://127.0.0.1:4000/) _or_ [localhost:4000](http://localhost:4000/)
 
-> [!TIP]
-> Consider using a tool like [direnv](https://github.com/direnv/direnv) to automatically set the projects ENV vars.
-
 > [!IMPORTANT]
 > `bin/qr-code` displays a QR Code that can be used by a mobile device. The supplied IP address therefore needs to be something that can be routed, e.g.:
 > - local address: `192.168.#.#`
@@ -44,8 +41,9 @@ Check how production will look before deploying with: `JEKYLL_ENV=production bin
 - run `actionlint` for the `.github/workflows`
 - run `htmlproofer` on the generated site
 - run `shellcheck` on any shell or bash scripts
+- alphabatise the user dictionary
 
-If for some reason it's necessary, it's possible to temporarily skip `lefthook` with: `LEFTHOOK=0 git commit`.
+Disable `lefthook` with: `LEFTHOOK=0 git commit`.
 
 ## Deploying changes
 Simply merge to `main` and the [pages-deploy workflow](.github/workflows/pages-deploy.yml) will handle the building and deploying to [GitHub Pages](https://pages.github.com/).  
