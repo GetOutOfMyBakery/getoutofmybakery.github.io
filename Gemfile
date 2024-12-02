@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 gem "jekyll", "~> 4.3"
-gem "jekyll-theme-chirpy", "~> 7.1.1"
+gem "jekyll-theme-chirpy", "~> 7.2.0"
 
 gem "base64"
 gem "bigdecimal"
