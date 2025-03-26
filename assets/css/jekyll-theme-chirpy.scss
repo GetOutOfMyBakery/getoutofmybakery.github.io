@@ -9,8 +9,22 @@
 
 /* append your custom style below */
 
+#sidebar .profile-wrapper {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+#sidebar #avatar {
+  margin: auto; // Center the avatar in the sidebar
+}
+
 #sidebar .site-title {
   font-size: 1.35rem;  // Override the title to fit 'GetOutOfMyBakery' in the sidebar
+  text-align: center;
+}
+
+#sidebar .site-subtitle {
+  text-align: center;
 }
 
 main .content .external-link::after {
@@ -19,6 +33,10 @@ main .content .external-link::after {
   margin-left: 0.3rem;
   vertical-align: super;
   content: "\f08e";
+}
+
+p {
+  text-align: justify;
 }
 
 /* --- Skip to Content --- */
