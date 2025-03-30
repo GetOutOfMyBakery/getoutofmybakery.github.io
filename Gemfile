@@ -14,4 +14,5 @@ end
 
 group :development do
   gem "standardrb"
+  gem "logger"
 end
