@@ -114,7 +114,7 @@ GEM
     jekyll-target-blank (2.0.2)
       jekyll (>= 3.0, < 5.0)
       nokogiri (~> 1.10)
-    jekyll-theme-chirpy (7.1.1)
+    jekyll-theme-chirpy (7.2.4)
       jekyll (~> 4.3)
       jekyll-archives (~> 2.2)
       jekyll-include-cache (~> 0.2)
@@ -275,7 +275,7 @@ DEPENDENCIES
   jekyll-compose
   jekyll-feed (~> 0.12)
   jekyll-target-blank (~> 2.0)
-  jekyll-theme-chirpy (~> 7.1.1)
+  jekyll-theme-chirpy (~> 7.2.4)
   logger
   standardrb
 
@@ -331,7 +331,7 @@ CHECKSUMS
   jekyll-seo-tag (2.8.0) sha256=3f2ed1916d56f14ebfa38e24acde9b7c946df70cb183af2cb5f0598f21ae6818
   jekyll-sitemap (1.4.0) sha256=0de08c5debc185ea5a8f980e1025c7cd3f8e0c35c8b6ef592f15c46235cf4218
   jekyll-target-blank (2.0.2) sha256=db988ba0b1a12b9841a864e77939ffecc27fbdce28916cec631ea047e6b91f94
-  jekyll-theme-chirpy (7.1.1) sha256=163dc1d9362d5978c3523f5ab769e714cb4dabb350fd348926f6e987b8bed4b9
+  jekyll-theme-chirpy (7.2.4) sha256=3272c6bd29a5e09ae3b4249765999dfb7d0f6ffb8fd55f3e4ae6f71b6d595892
   jekyll-watch (2.2.1) sha256=bc44ed43f5e0a552836245a54dbff3ea7421ecc2856707e8a1ee203a8387a7e1
   json (2.10.2) sha256=34e0eada93022b2a0a3345bb0b5efddb6e9ff5be7c48e409cfb54ff8a36a8b06
   kramdown (2.5.1) sha256=87bbb6abd9d3cebe4fc1f33e367c392b4500e6f8fa19dd61c0972cf4afe7368c
