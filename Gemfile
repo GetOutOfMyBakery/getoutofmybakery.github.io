@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 gem "jekyll", "~> 4.3"
-gem "jekyll-theme-chirpy", "~> 7.2.4"
+gem "jekyll-theme-chirpy", "~> 7.3.0"
 
 group :test do
   gem "html-proofer"
