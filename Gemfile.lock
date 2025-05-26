@@ -112,8 +112,6 @@ GEM
     jekyll-include-cache (0.2.1)
       jekyll (>= 3.7, < 5.0)
     jekyll-paginate (1.1.0)
-    jekyll-redirect-from (0.16.0)
-      jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (3.1.0)
       sass-embedded (~> 1.75)
     jekyll-seo-tag (2.8.0)
@@ -123,12 +121,11 @@ GEM
     jekyll-target-blank (2.0.2)
       jekyll (>= 3.0, < 5.0)
       nokogiri (~> 1.10)
-    jekyll-theme-chirpy (7.2.4)
+    jekyll-theme-chirpy (7.3.0)
       jekyll (~> 4.3)
       jekyll-archives (~> 2.2)
       jekyll-include-cache (~> 0.2)
       jekyll-paginate (~> 1.1)
-      jekyll-redirect-from (~> 0.16)
       jekyll-seo-tag (~> 2.8)
       jekyll-sitemap (~> 1.4)
     jekyll-watch (2.2.1)
@@ -287,7 +284,7 @@ DEPENDENCIES
   jekyll-compose
   jekyll-feed (~> 0.12)
   jekyll-target-blank (~> 2.0)
-  jekyll-theme-chirpy (~> 7.2.4)
+  jekyll-theme-chirpy (~> 7.3.0)
   logger
   standardrb
 
@@ -341,12 +338,11 @@ CHECKSUMS
   jekyll-feed (0.17.0) sha256=689aab16c877949bb9e7a5c436de6278318a51ecb974792232fd94d8b3acfcc3
   jekyll-include-cache (0.2.1) sha256=c7d4b9e551732a27442cb2ce853ba36a2f69c66603694b8c1184c99ab1a1a205
   jekyll-paginate (1.1.0) sha256=880aadf4b02529a93541d508c5cbb744f014cbfc071d0263a31f25ec9066eb64
-  jekyll-redirect-from (0.16.0) sha256=6635cae569ef9b0f90ffb71ec014ba977177fafb44d32a2b0526288d4d9be6db
   jekyll-sass-converter (3.1.0) sha256=83925d84f1d134410c11d0c6643b0093e82e3a3cf127e90757a85294a3862443
   jekyll-seo-tag (2.8.0) sha256=3f2ed1916d56f14ebfa38e24acde9b7c946df70cb183af2cb5f0598f21ae6818
   jekyll-sitemap (1.4.0) sha256=0de08c5debc185ea5a8f980e1025c7cd3f8e0c35c8b6ef592f15c46235cf4218
   jekyll-target-blank (2.0.2) sha256=db988ba0b1a12b9841a864e77939ffecc27fbdce28916cec631ea047e6b91f94
-  jekyll-theme-chirpy (7.2.4) sha256=3272c6bd29a5e09ae3b4249765999dfb7d0f6ffb8fd55f3e4ae6f71b6d595892
+  jekyll-theme-chirpy (7.3.0) sha256=f725e938b71b5d04706ebca627cee1cda86e66858fbd81a1461a8ab0cb018727
   jekyll-watch (2.2.1) sha256=bc44ed43f5e0a552836245a54dbff3ea7421ecc2856707e8a1ee203a8387a7e1
   json (2.12.2) sha256=ba94a48ad265605c8fa9a50a5892f3ba6a02661aa010f638211f3cb36f44abf4
   kramdown (2.5.1) sha256=87bbb6abd9d3cebe4fc1f33e367c392b4500e6f8fa19dd61c0972cf4afe7368c
