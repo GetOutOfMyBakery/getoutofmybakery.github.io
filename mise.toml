@@ -1,0 +1,4 @@
+[env]
+JEKYLL_EDITOR = "hx"
+IP_ADDR = "mac.home.arpa" # Use hostname/local IP for the benefit of `bin/qr-code`
+PORT = "4000"
