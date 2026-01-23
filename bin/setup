@@ -2,4 +2,5 @@
 
 bundle check || bundle install
 brew bundle
+mise install
 lefthook install -f
