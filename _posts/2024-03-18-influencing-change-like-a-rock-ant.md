@@ -4,8 +4,8 @@ title: Influencing Change Like a Rock Ant
 date: 2024-03-18 19:42 +0000
 description: 'Musings on affecting change in a complicated, interconnected ecosystem, inspired by rock ants.'
 image:
-  path: 'https://gelinasjames.com/wp-content/uploads/2019/04/blog-9-2019.png'
-  alt: 'Image with text. Image depicts a representation of multiple people connected by spheres and lines. Text is a quote by John Muir: "When we try to pick out anything by itself, we find it hitched to everything else in the universe.". The image is from: https://gelinasjames.com/interconnected/'
+  path: './assets/img/interconnected.png'
+  alt: 'Image with text. Image depicts a representation of multiple people connected by spheres and lines. Text is a quote by John Muir: "When we try to pick out anything by itself, we find it hitched to everything else in the universe.".'
 categories:
 - tech
 - nature
