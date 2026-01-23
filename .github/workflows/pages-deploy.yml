@@ -5,7 +5,6 @@ on:
       - main
     paths-ignore:
       - .editorconfig
-      - .envrc
       - .github/**
       - .gitignore
       - .vscode/**
@@ -13,6 +12,7 @@ on:
       - Brewfile
       - lefthook.yml
       - LICENSE
+      - mise.toml
       - README.md
   workflow_dispatch:
 
@@ -31,7 +31,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
           # submodules: true
@@ -54,7 +54,7 @@ jobs:
         run: bin/test
 
       - name: Upload site artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: "_site"
 
