@@ -1,4 +1,41 @@
 [env]
 JEKYLL_EDITOR = "hx"
-IP_ADDR = "mac.home.arpa" # Use hostname/local IP for the benefit of `bin/qr-code`
+IP_ADDR = "micro.home.arpa"
 PORT = "4000"
+
+# jekyll-compose: https://github.com/jekyll/jekyll-compose
+[tasks.draft]
+description = "Creates a new draft post with the given NAME"
+run = "bundle exec jekyll draft"
+
+[tasks.post]
+description = "Creates a new post with the given NAME"
+run = "bundle exec jekyll post"
+
+[tasks.publish]
+description = "Moves a draft into the _posts directory and sets the date"
+run = "bundle exec jekyll publish"
+
+[tasks.unpublish]
+description = "Moves a post back into the _drafts directory"
+run = "bundle exec jekyll unpublish"
+
+[tasks.page]
+description = "Creates a new page with the given NAME"
+run = "bundle exec jekyll page"
+
+[tasks.rename]
+description = "Moves a draft to a given NAME and sets the title"
+run = "bundle exec jekyll rename"
+
+[tasks.compose]
+description = "Creates a new file with the given NAME"
+run = "bundle exec jekyll compose"
+
+[tasks.serve]
+description = "Start Jekyll server (in developer mode)."
+alias = 'dev'
+run = [
+        'echo "${LOCAL_URL}" | qrencode -m 2 -t utf8',
+        'bundle exec jekyll server --drafts --unpublished --livereload --watch --host "${IP_ADDR}" --port "${PORT}" --open'
+      ]

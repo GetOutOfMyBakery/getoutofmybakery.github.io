@@ -8,11 +8,6 @@ A scratchpad Jekyll blog for my personal GitHub account.
 1. Run: `bin/dev`
 1. The blog is now locally hosted at: [127.0.0.1:4000](http://127.0.0.1:4000/) _or_ [localhost:4000](http://localhost:4000/)
 
-> [!IMPORTANT]
-> `bin/qr-code` displays a QR Code that can be used by a mobile device. The supplied IP address therefore needs to be something that can be routed, e.g.:
-> - local address: `192.168.#.#`
-> - hostname: `my-laptop.home.arpa`
-
 ## Creating and managing posts
 With the help of [`jekyll-compose`](https://github.com/jekyll/jekyll-compose), creating and managing posts is easy:
 ``` shell
